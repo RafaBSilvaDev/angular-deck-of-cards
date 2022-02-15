@@ -1,0 +1,12 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-12">
+          Deck Id: {{deckId}}
+    </div>
+  </div>
+  <div class="row">
+    <div class="col mb 5" *ngFor="let card of cards">
+      <img [src]="card.image"/>
+    </div>
+  </div>
+</div>
